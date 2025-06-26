@@ -6,7 +6,7 @@ public class Basic_functions {
         // Create a stack
         Stack<Integer> st = new Stack<>();
 
-        // ...1st Operation: insert element into the stack....
+        // .....1st Operation: insert element into the stack....
         st.push(45);
         st.push(23);
         st.push(90);
