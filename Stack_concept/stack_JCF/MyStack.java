@@ -62,8 +62,7 @@ public class MyStack {
                 break;
             }
             System.out.println("\nDo you want to continue this??");
-            choice = (char) br.read();
-            br.read();
+            choice = br.readLine().charAt(0);
         } while (choice == 'y' || choice == 'Y'); // while (ch >= 1 && ch <=6);
         // br.close();
     }
